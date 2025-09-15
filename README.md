@@ -1,12 +1,19 @@
-# React + Vite
+# screen-seeker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The project is a user-friendly interactive movie web application built wtith **HTML/CSS**, **React**, and **JavaScript** that allows the user to browse, search, and save movies based off their preference.
 
-Currently, two official plugins are available:
+The program allows the user to browse current popular movies and displays the movie cover, release date, and overview using **TMDB's API**. The program allows the user to search movies by title and manage their favourite movies including adding and removing movies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+Programming language: **HTML/CSS**, **JavaScript**
 
-## Expanding the ESLint configuration
+Framework: **React**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API
+The program integrates TMDB API which is used to fetch all movie information including the movie title, poster, release date, and overview.
+
+https://developer.themoviedb.org/docs/getting-started
+
+## Usage
+The program has a navigation bar at the top of the page that displays the two page choices including the home and favourites page. The home page displays the current popular movies including all its descriptions with a favourites button at the top right of the movie poster. The home page also displays a search bar which the user can interactively search for movies based off movie title. The favourites page displays the users favourite movies. The movies can be unfavourited using the same button at the top right of the movie poster.
